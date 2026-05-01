@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Murilo Thomé — Front-end developer focused on JavaScript and modern web interfaces." />
+  <title>Murilo Thomé — Front-end Developer</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+
+  <div id="cursor"></div>
+  <div id="cursor-ring"></div>
+  <div id="progress-bar"></div>
+
+  <div class="blob blob-1"></div>
+  <div class="blob blob-2"></div>
+
+  <!-- Nav -->
+  <nav>
+    <div class="nav-inner">
+      <a href="#hero" class="nav-logo">mt<span>.</span></a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#stack">Stack</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section id="hero">
+    <div class="wrapper">
+      <div class="hero-grid">
+        <div>
+          <div class="hero-label">Front-end Developer</div>
+          <h1 class="hero-title">
+            Hi, I'm Murilo.<br>
+            <span class="line2" id="typed-text"></span>
+          </h1>
+          <p class="hero-desc">
+            Focused on JavaScript and modern web interfaces — crafting clean, responsive, and user-friendly experiences from scratch.
+          </p>
+          <div class="hero-cta">
+            <a href="#projects" class="btn btn-primary">View Projects ↓</a>
+            <a href="#contact" class="btn btn-ghost">Get in touch</a>
+          </div>
+        </div>
+        <div class="hero-photo-wrap">
+          <div class="hero-photo-container">
+            <img class="hero-photo" src="assets/images/photo.png" alt="Murilo Thomé" />
+            <div class="photo-accent"></div>
+          </div>
+        </div>
+      </div>
+      <div class="scroll-hint">
+        <span>scroll</span>
+        <div class="line"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about">
+    <div class="wrapper">
+      <div class="section-label">About Me</div>
+      <h2 class="section-title reveal">Who I am</h2>
+      <div class="about-grid">
+        <div class="about-text reveal">
+          <p>I'm a <strong>front-end developer</strong> currently learning and building real-world projects with JavaScript and modern web technologies.</p>
+          <p>I care about <strong>UI/UX details</strong> — clean layouts, responsive design, and interactions that feel right. Every project is an opportunity to improve and ship something I'm proud of.</p>
+          <p>My goal is to grow into a professional developer by building a strong, honest portfolio — one project at a time.</p>
+        </div>
+        <div class="reveal">
+          <p class="goals-label">Goals</p>
+          <ul class="goals-list">
+            <li>Build real-world, production-ready projects</li>
+            <li>Master front-end development</li>
+            <li>Work professionally as a developer</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Stack -->
+  <section id="stack">
+    <div class="wrapper">
+      <div class="section-label">Tech Stack</div>
+      <h2 class="section-title reveal">What I work with</h2>
+      <div class="stack-grid reveal">
+        <div class="stack-pill"><span class="dot" style="background:#e34f26"></span>HTML5</div>
+        <div class="stack-pill"><span class="dot" style="background:#1572b6"></span>CSS3</div>
+        <div class="stack-pill"><span class="dot" style="background:#f7df1e"></span>JavaScript</div>
+        <div class="stack-pill"><span class="dot" style="background:#e02626"></span>Responsive Design</div>
+        <div class="stack-pill"><span class="dot" style="background:#ff6b6b"></span>UI / UX</div>
+        <div class="stack-pill"><span class="dot" style="background:#f05033"></span>Git & GitHub</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects">
+    <div class="wrapper">
+      <div class="section-label">Projects</div>
+      <h2 class="section-title reveal">Things I've built</h2>
+      <div class="projects-grid">
+
+        <a class="project-card reveal" href="https://github.com/mthomedev/bmi-calculator" target="_blank" rel="noopener noreferrer">
+          <div>
+            <div class="project-number">01</div>
+            <div class="project-name">BMI Calculator</div>
+            <p class="project-desc">A responsive Body Mass Index calculator with metric and imperial unit support, inline validation, a visual BMI scale, and a clean dark UI.</p>
+            <div class="project-tags">
+              <span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JavaScript</span><span class="tag">Responsive</span>
+            </div>
+          </div>
+          <div class="project-arrow">↗</div>
+        </a>
+
+        <a class="project-card reveal" href="https://github.com/mthomedev/Chronometer" target="_blank" rel="noopener noreferrer">
+          <div>
+            <div class="project-number">02</div>
+            <div class="project-name">Chronometer</div>
+            <p class="project-desc">A responsive chronometer built with pure JavaScript, featuring lap tracking, local storage persistence, and a modern UI.</p>
+            <div class="project-tags">
+              <span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JavaScript</span><span class="tag">Local Storage</span>
+            </div>
+          </div>
+          <div class="project-arrow">↗</div>
+        </a>
+
+        <a class="project-card reveal" href="https://github.com/mthomedev/Discount-and-Installment-Calculator" target="_blank" rel="noopener noreferrer">
+          <div>
+            <div class="project-number">03</div>
+            <div class="project-name">Discount & Installment Calculator</div>
+            <p class="project-desc">A modern and responsive financial calculator for simulating discounts and installment plans, focused on precision, usability, and user experience.</p>
+            <div class="project-tags">
+              <span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JavaScript</span><span class="tag">Finance</span>
+            </div>
+          </div>
+          <div class="project-arrow">↗</div>
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact">
+    <div class="wrapper">
+      <div class="section-label">Contact</div>
+      <h2 class="section-title reveal">Let's talk</h2>
+      <div class="contact-box reveal">
+        <h3>Open to opportunities</h3>
+        <p>I'm open to opportunities, collaborations, or just a good conversation about web development. Feel free to reach out.</p>
+        <div class="contact-links">
+          <a href="mailto:mthome.dev@gmail.com" class="btn btn-primary">✉ mthome.dev@gmail.com</a>
+          <a href="https://github.com/mthomedev" target="_blank" rel="noopener noreferrer" class="btn btn-ghost">⌥ GitHub</a>
+          <a href="tel:+5542998129493" class="btn btn-ghost">📱 +55 (42) 9 9812-9493</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="wrapper">
+      <p>© 2026 Murilo Thomé — Built with <span>HTML</span>, <span>CSS</span> & <span>JavaScript</span></p>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
